@@ -15,7 +15,7 @@ Expander.prototype = {
 
     init : function() {
       var self = this;
-      puts('Expander initialized');
+      // puts('Expander initialized');
 
       self.$trigger.on('click', function(e){
         e.preventDefault();
@@ -52,6 +52,6 @@ Expander.prototype = {
 
 $(window).load(function(){
   $('[data-expander]').each(function(){
-    new Expander($(this));
+    $(this).data('expander-object', new Expander($(this)));
   });
 });

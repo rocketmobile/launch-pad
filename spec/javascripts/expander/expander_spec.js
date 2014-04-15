@@ -1,7 +1,8 @@
 describe("Expander", function() {
   it("should initialize", function() {
     loadFixtures('expander/basic.html');
+    var expander = new Expander($('[data-expander]'));
 
-    expect($('#test')).toHaveText(/text/);
+    expect(typeof(expander)).toBe('object');
   });
 });
