@@ -11,7 +11,9 @@
 #   - dist/**/*.js
 #
 src_files:
-  - public/javascripts/**/*.js
+  - 'javascripts/jquery.js'
+  - 'javascripts/jasmine-jquery.js'
+  - 'javascripts/expander.js'
 
 # stylesheets
 #

@@ -2,10 +2,14 @@
 #You can remove it if you don't need it.
 #This file is loaded *after* jasmine.yml is interpreted.
 #
-#Example: using a different boot file.
-#Jasmine.configure do |config|
-#   config.boot_dir = '/absolute/path/to/boot_dir'
-#   config.boot_files = lambda { ['/absolute/path/to/boot_dir/file.js'] }
-#end
+# Jasmine.configure do |config|
+#   jquery_rails = Gem::Specification.find_by_name 'jquery-rails'
+#   jasmine_jquery_rails = Gem::Specification.find_by_name 'jasmine-jquery-rails'
+#   config.src_files = lambda do
+#     [
+
+#     ]
+#   end
+# end
 #
 
